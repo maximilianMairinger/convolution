@@ -32,7 +32,7 @@ const result = convolve(a, b)
 
 `convolveArbitrary(convolutionStepFunction: (a: List, b: List) => T): (a: List, b: List) => List`
 
-Creates a convolution function given a custom convolution step function. A convolution step is the operation of combining two arrays of the same length into a single value. Typically this is done by `sum(a_i * b_i)`, but can be arbitrary. The function returns a new function which can be used to perform the whole convolution on two arrays.
+Creates a convolution function given a custom convolution step function. A convolution step is the operation of combining two arrays of the same length into a single value. Typically this is done by $\sum_{i}^{}(a_i * b_i)$, but can be arbitrary. The function returns a new function which can be used to perform the whole convolution on two arrays.
 
 The following example is the same as the `convolve` function above.
 
