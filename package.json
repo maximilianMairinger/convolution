@@ -1,6 +1,6 @@
 {
   "name": "convolution",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple direct and extendable convolution library.",
   "main": "./app/dist/esm/convolution.mjs",
   "types": "./app/dist/esm/convolution.d.ts",
@@ -30,9 +30,9 @@
     "url": "git+https://github.com/maximilianMairinger/convolution.git"
   },
   "keywords": [
-  "convolution",
-  "convolve"
-],
+    "convolution",
+    "convolve"
+  ],
   "author": "maximilianMairinger",
   "license": "ISC",
   "bugs": {
