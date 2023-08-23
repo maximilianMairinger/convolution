@@ -1,6 +1,6 @@
 {
   "name": "convolution",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple direct and extendable convolution library.",
   "main": "./app/dist/esm/convolution.mjs",
   "types": "./app/dist/esm/convolution.d.ts",
